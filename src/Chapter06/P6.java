@@ -7,14 +7,13 @@ import java.util.Scanner;
  *
  * @author Chase Holland
  */
-
 public class P6 {
 
     /**
      * Main method
+     *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Euro Rate: ");
@@ -51,12 +50,15 @@ public class P6 {
         } while (response.equals("yes"));
 
     }
-/**
- * Takes part of the money out as a "conversion charge"
- * @param dollars Variable given by the user
- * @param exchangeRate The exchange rate of what currency the user is converting to
- * @return Returns an amount of whatever the user converted 
- */
+
+    /**
+     * Takes part of the money out as a "conversion charge"
+     *
+     * @param dollars Variable given by the user
+     * @param exchangeRate The exchange rate of what currency the user is
+     * converting to
+     * @return Returns an amount of whatever the user converted
+     */
     public static double convert(double dollars, double exchangeRate) {
         if (dollars > 100) {
             return 0.95 * dollars * exchangeRate;

@@ -7,14 +7,13 @@ import java.util.Scanner;
  *
  * @author Chase Holland
  */
-
 public class C6_1 {
 
     /**
      * Main method
+     *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your password: ");
@@ -22,11 +21,13 @@ public class C6_1 {
 
         System.out.println(isValid(password) ? "Valid Password" : "Invalid Password");
     }
-/**
- * Length requirement method
- * @param password The password that the user input
- * @return 
- */
+
+    /**
+     * Length requirement method
+     *
+     * @param password The password that the user input
+     * @return A true or false value
+     */
     public static boolean isValid(String password) {
         // Atleast 8 characters
         if (password.length() < 8) {
