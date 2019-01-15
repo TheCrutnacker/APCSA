@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class P6 {
 
     /**
-     *
+     * Main method
      * @param args arguments from command line prompt
      */
 
@@ -51,7 +51,12 @@ public class P6 {
         } while (response.equals("yes"));
 
     }
-
+/**
+ * Takes part of the money out as a "conversion charge"
+ * @param dollars
+ * @param exchangeRate
+ * @return 
+ */
     public static double convert(double dollars, double exchangeRate) {
         if (dollars > 100) {
             return 0.95 * dollars * exchangeRate;

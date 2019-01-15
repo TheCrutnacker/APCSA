@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class P5 {
 
     /**
-     *
+     * Main method
      * @param args arguments from command line prompt
      */
 

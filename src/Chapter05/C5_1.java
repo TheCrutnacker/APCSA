@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class C5_1 {
 
     /**
-     *
+     * Main Method
      * @param args arguments from command line prompt
      */
 
