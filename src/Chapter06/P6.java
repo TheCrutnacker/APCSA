@@ -53,9 +53,9 @@ public class P6 {
     }
 /**
  * Takes part of the money out as a "conversion charge"
- * @param dollars
- * @param exchangeRate
- * @return 
+ * @param dollars Variable given by the user
+ * @param exchangeRate The exchange rate of what currency the user is converting to
+ * @return Returns an amount of whatever the user converted 
  */
     public static double convert(double dollars, double exchangeRate) {
         if (dollars > 100) {

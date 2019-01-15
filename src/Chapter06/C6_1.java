@@ -24,7 +24,7 @@ public class C6_1 {
     }
 /**
  * Length requirement method
- * @param password
+ * @param password The password that the user input
  * @return 
  */
     public static boolean isValid(String password) {
